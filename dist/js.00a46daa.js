@@ -3243,7 +3243,7 @@ var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var backtopEl = document.querySelector('.backtop');
-var goAbout = document.querySelector('.about');
+var goAbout = document.querySelector('.go_about');
 var headerEl = document.querySelector('#header');
 var aboutEl = document.querySelector('#about'); // Preload  images and fonts
 
