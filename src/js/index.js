@@ -2,7 +2,9 @@ import { preloadImages, preloadFonts } from './utils';
 import LocomotiveScroll from 'locomotive-scroll';
 
 const backtopEl = document.querySelector('.backtop');
+const goAbout = document.querySelector('.about');
 const headerEl = document.querySelector('#header');
+const aboutEl = document.querySelector('#about');
 
 // Preload  images and fonts
 Promise.all([preloadImages('.tiles__line-img'), preloadFonts('rmd7deq')]).then(() => {
@@ -16,4 +18,5 @@ Promise.all([preloadImages('.tiles__line-img'), preloadFonts('rmd7deq')]).then((
     });
 
     backtopEl.addEventListener('click', () => scroll.scrollTo(headerEl));
+    goAbout.addEventListener('click', () => scroll.scrollTo(aboutEl));
 });

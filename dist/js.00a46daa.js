@@ -3243,7 +3243,9 @@ var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var backtopEl = document.querySelector('.backtop');
-var headerEl = document.querySelector('#header'); // Preload  images and fonts
+var goAbout = document.querySelector('.about');
+var headerEl = document.querySelector('#header');
+var aboutEl = document.querySelector('#about'); // Preload  images and fonts
 
 Promise.all([(0, _utils.preloadImages)('.tiles__line-img'), (0, _utils.preloadFonts)('rmd7deq')]).then(function () {
   // Remove loader (loading class)
@@ -3255,6 +3257,9 @@ Promise.all([(0, _utils.preloadImages)('.tiles__line-img'), (0, _utils.preloadFo
   });
   backtopEl.addEventListener('click', function () {
     return scroll.scrollTo(headerEl);
+  });
+  goAbout.addEventListener('click', function () {
+    return scroll.scrollTo(aboutEl);
   });
 });
 },{"./utils":"js/utils.js","locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -3285,7 +3290,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56425" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54430" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

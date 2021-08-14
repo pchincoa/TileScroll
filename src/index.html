@@ -1,157 +1,136 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Image Tiles Scroll Animation | Demo 1 | Codrops</title>
-		<meta name="description" content="Scroll animations for image grids powered by Locomotive Scroll" />
-		<meta name="keywords" content="locomotive scroll, scroll animation, website, javascript, demo" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="https://use.typekit.net/rmd7deq.css">
-		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-	</head>
-	<body class="demo-1 loading">
-		<main data-scroll-container>
-			<section id="header" class="content content--numbered">
-				<div class="frame">
-					<div class="frame__title-wrap">
-						<h1 class="frame__title">Image Tiles Scroll Animation with <a href="https://locomotivemtl.github.io/locomotive-scroll/">Locomotive Scroll</a></h1>
-					</div>
-					<div class="frame__links">
-						<a href="https://tympanus.net/Development/videoTransitions/">Previous demo</a>
-						<a href="https://tympanus.net/codrops/?p=51396">Article</a>
-						<a href="https://github.com/codrops/TileScroll/">GitHub</a>
-					</div>
-					<div class="frame__demos">
-						<a href="index.html" class="frame__demo frame__demo--current">Demo 1</a>
-						<a href="index2.html" class="frame__demo">Demo 2</a>
-						<a href="index3.html" class="frame__demo">Demo 3</a>
-					</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Color Pirmario | Fotografía | Bendita Varsovia Studio & Pedro Chincoa</title>
+	<meta name="description" content="Diseño web interactivo para atractivas experiencias web" />
+	<meta name="keywords" content="locomotive scroll, scroll animation, website, javascript, landing" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/rmd7deq.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+
+<body class="demo-2 loading">
+	<main data-scroll-container>
+		<section id="header" class="content content--fixed">
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<a href="https://benditavarsovia.com/"><h1 class="about frame__demo frame__demo--current">Bendita Varsovia Studio</h1></a>
 				</div>
-				<p class="content__pretitle">Unseeing the seen</p>
-				<h1 class="content__title" data-scroll data-scroll-speed="2">decondition yourself</h1>
-			</section>
-			<section class="tiles tiles--rotated" id="grid2">
-				<div class="tiles__wrap">
-					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
-						<div class="tiles__line-img"></div>
-						<div class="tiles__line-img"></div>
-						<div class="tiles__line-img"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/4.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/5.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/6.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
-						<div class="tiles__line-img"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/8.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/9.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/10.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/11.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/12.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
-						<div class="tiles__line-img" style="background-image:url(img/demo1/13.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/14.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/15.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/16.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/17.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/18.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
-						<div class="tiles__line-img" style="background-image:url(img/demo1/19.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/20.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/21.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/22.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/23.jpg)"></div>
-						<div class="tiles__line-img"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid2" data-scroll-direction="horizontal">
-						<div class="tiles__line-img"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/26.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/27.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/28.jpg)"></div>
-						<div class="tiles__line-img"></div>
-						<div class="tiles__line-img"></div>
-					</div>
+
+				<div class="frame__demos">
+					
+					<a class="about frame__demo frame__demo--current">About</a>
 				</div>
-			</section>
-			<section class="content content--numbered">
-				<p class="content__text" data-scroll data-scroll-speed="2">The human world is exploding at the seams. Human creativity and the implementation of human inventions and technology is now at an accelerated fever pitch like nothing ever before seen in the history of the world. Well, where is it leading, and how does one integrate this stuff into one’s own life? What does it mean about the experience of being human? I have proposed the existence of an invisible, permeating <em>Something</em> that is throughout all being, all time, all space, all bodies, all thought, which I call <em>Novelty</em>; and the interesting thing about novelty is that it’s increasing constantly. </p>
-			</section>
-			<section class="tiles" id="grid">
-				<div class="tiles__wrap">
-					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid" data-scroll-direction="horizontal">
-						<div class="tiles__line-img" style="background-image:url(img/demo1/30.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/29.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/28.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/27.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/26.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/25.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="2" data-scroll-target="#grid" data-scroll-direction="horizontal">
-						<div class="tiles__line-img" style="background-image:url(img/demo1/24.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/23.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/22.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/19.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/18.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/17.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid" data-scroll-direction="horizontal">
-						<div class="tiles__line-img" style="background-image:url(img/demo1/16.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/15.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/14.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/13.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/12.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo1/11.jpg)"></div>
-					</div>
+			</div>
+		</section>
+		<section class="tiles tiles--columns-rotated tiles--darker" id="grid">
+			<div class="tiles__wrap">
+				<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid">
+					<div class="tiles__line-img" style="background-image:url(img/demo2/001.jpg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/04.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla6.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/001.jpg)"></div>
+
+
+
+
+
 				</div>
-			</section>
-			<section class="content content--feature">
-				<p class="content__breakout content__breakout--big" data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">endless acceleration toward infinity</p>
-				<p class="content__breakout content__breakout--medium" data-scroll data-scroll-speed="-1" data-scroll-direction="horizontal">the greatest barrier to your enlightenment</p>
-			</section>
-			<section class="content content--numbered">
-				<p class="content__text" data-scroll data-scroll-speed="2">The conservation of novelty is simply that, over time, the universe has become more complicated. New levels of complexity become the foundations for yet deeper levels of complexity. And this phenomenon of the production and conservation of what I call novelty is not something which goes on only in the biological domain or only in the cultural domain or only in the domain of physics. It is a trans-categorical impulse in reality, meaning: it’s everywhere. <em>Everywhere!</em></p>
-			</section>
-			<section class="tiles tiles--columns" id="grid3">
-				<div class="tiles__wrap">
-					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid3" data-scroll-direction="vertical">
-						<div class="tiles__line-img" style="background-image:url(img/demo2/20.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/19.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/18.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid3" data-scroll-direction="vertical">
-						<div class="tiles__line-img" style="background-image:url(img/demo2/16.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/3.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/14.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid3" data-scroll-direction="vertical">
-						<div class="tiles__line-img" style="background-image:url(img/demo2/12.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/11.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/10.jpg)"></div>
-					</div>
-					<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid3" data-scroll-direction="vertical">
-						<div class="tiles__line-img" style="background-image:url(img/demo2/8.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/7.jpg)"></div>
-						<div class="tiles__line-img" style="background-image:url(img/demo2/6.jpg)"></div>
-					</div>
+				<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid">
+					<div class="tiles__line-img" style="background-image:url(img/demo2/03.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/09.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla2.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla5.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/03.jpeg)"></div>
+
+
+
+
 				</div>
-			</section>
-			<section class="content">
-				<a class="backtop" data-scroll data-scroll-speed="4">Back to the top</a>
-				<div class="frame frame--footer">
-					<a href="https://twitter.com/codrops" class="frame__author">@codrops</a>
-					<div class="frame__demos">
-						<a href="index.html" class="frame__demo frame__demo--current">Demo 1</a>
-						<a href="index2.html" class="frame__demo">Demo 2</a>
-						<a href="index3.html" class="frame__demo">Demo 3</a>
-					</div>
+				<div class="tiles__line" data-scroll data-scroll-speed="-2" data-scroll-target="#grid">
+					
+					<div class="tiles__line-img" style="background-image:url(img/demo2/09.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/001.jpg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/0707.jpg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla4.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/aqp1.jpg)"></div>
+
+
+
 				</div>
-			</section>
-		</main>
-		<script src="js/index.js"></script>
-	</body>
+				<div class="tiles__line" data-scroll data-scroll-speed="1" data-scroll-target="#grid">
+					<div class="tiles__line-img" style="background-image:url(img/demo2/010.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/08.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/master-final.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla7.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla2.jpeg)"></div>
+
+				</div>
+				<div class="tiles__line" data-scroll data-scroll-speed="-1" data-scroll-target="#grid">
+					<div class="tiles__line-img" style="background-image:url(img/demo2/04.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/03.jpeg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/001.jpg)"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/001.jpg)"></div>
+
+				</div>
+
+			</div>
+			<h2 class="tiles__title">Color Primario</h2>
+		</section>
+		<section class="content" id="about">
+			<p class="content__text content__text--centered" data-scroll data-scroll-speed="4">A medio camino entre lo
+				decorativo y el ensayo visual, con algunas constantes y obsesiones,<br> <span class="color">Color </span><span class="primario">Primario</span> explora la
+				memoria visual del viaje (Perú, España, Portugal y Marruecos), la dimensión estética de mitos y ritos que se
+				alejan de
+				lo figurativo en su encuentro azaroso con el color.</p>
+		</section>
+		<section class="content content--feature">
+			<p class="content__breakout content__breakout--big" data-scroll data-scroll-speed="1"
+				data-scroll-direction="horizontal">La belleza es contemplar el movimiento</p>
+			<p class="content__breakout content__breakout--medium" data-scroll data-scroll-speed="2"
+				data-scroll-direction="horizontal">El color como escenario y descubrimiento</p>
+		</section>
+		<section class="tiles tiles--small" id="grid2">
+			<div class="tiles__wrap"></div>
+			<div class="tiles__line">
+				 <div class="tiles__line-img" style="background-image:url(img/demo2/08.jpeg)" data-scroll
+					data-scroll-speed="1" data-scroll-target="#grid2"></div>
+				<div class="tiles__line-img" style="background-image:url(img/demo2/010.jpeg)" data-scroll data-scroll-speed="1"
+						data-scroll-target="#grid2"></div>
+				<div class="tiles__line-img" style="background-image:url(img/demo2/001.jpg)" data-scroll
+					data-scroll-speed="-1" data-scroll-target="#grid2"></div>
+				<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla4.jpeg)" data-scroll
+					data-scroll-speed="1" data-scroll-target="#grid2"></div>
+				<div class="tiles__line-img" style="background-image:url(img/demo2/sevilla2.jpeg)" data-scroll
+					data-scroll-speed="-1" data-scroll-target="#grid2"></div>
+				<div class="tiles__line-img" style="background-image:url(img/demo2/master00.jpeg)" data-scroll
+					data-scroll-speed="1" data-scroll-target="#grid2"></div>
+				<div class="tiles__line-img" style="background-image:url(img/demo2/master03.jpeg)" data-scroll
+					data-scroll-speed="-1" data-scroll-target="#grid2"></div>
+					<div class="tiles__line-img" style="background-image:url(img/demo2/master-mov.gif)" data-scroll
+						data-scroll-speed="-1" data-scroll-target="#grid2"></div>
+			</div>
+			</div>r
+		</section>
+		<section class="content">
+			<a class="backtop" data-scroll data-scroll-speed="4">aupa</a>
+			<div class="frame frame--footer">
+				<a href="https://www.instagram.com/thisismeatpixel/" class="frame__author">@thisismeatpixel</a>
+
+				<div class="frame__demos">
+					<a href="https://pedrochincoa.portfoliobox.net/about-me-6" class="frame__author">©Pedro Chincoa</a>
+
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="js/index.js"></script>
+</body>
+
 </html>
